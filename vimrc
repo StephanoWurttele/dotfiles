@@ -13,3 +13,7 @@ if has("multi_byte")
 else
   echoerr "Sorry, this version of (g)vim was not compiled with +multi_byte"
 endif
+set hlsearch
+set incsearch
+:nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+
