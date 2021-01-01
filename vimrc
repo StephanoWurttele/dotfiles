@@ -16,4 +16,3 @@ endif
 set hlsearch
 set incsearch
 :nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
-
